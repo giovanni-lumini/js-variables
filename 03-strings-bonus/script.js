@@ -8,13 +8,15 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 // il carattere Y nella variabile city
 /* const cityIndex = 0;
 console.log(cityIndex); */ // Output: 4
-const cityIndex = city.search("Y");
+const cityIndex = city.indexOf("York")
 console.log(cityIndex);
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = '';
-console.log(citySubstring); // Output: "York"
+/* const citySubstring = '';
+console.log(citySubstring); */ // Output: "York"
+const citySubstring = city.substring(4);
+console.log(citySubstring); 
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
