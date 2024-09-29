@@ -35,5 +35,7 @@ console.log(cityNameConcat);
 
 // 5. Tutto in maiscolo
 // Trasforma tutto in maiscuolo la stringa della variabile hello
-const upperCaseHello = '';
-console.log(upperCaseHello); // Output: "HELLO"
+/* const upperCaseHello = '';
+console.log(upperCaseHello); */ // Output: "HELLO"
+const upperCaseHello = hello.toUpperCase();
+console.log(upperCaseHello);
