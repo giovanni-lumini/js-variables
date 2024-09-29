@@ -28,8 +28,10 @@ console.log(cityReplaced);
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
 // e rendi cityNameConcat uguale a 'New York City'
-const cityNameConcat = '';
-console.log(cityNameConcat); // Output: "New York City"
+/* const cityNameConcat = '';
+console.log(cityNameConcat); */ // Output: "New York City"
+const cityNameConcat = `${city} City`;
+console.log(cityNameConcat);
 
 // 5. Tutto in maiscolo
 // Trasforma tutto in maiscuolo la stringa della variabile hello
